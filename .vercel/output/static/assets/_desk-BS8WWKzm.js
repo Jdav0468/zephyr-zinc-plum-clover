@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-D3jfb0Ew.js";import{h as t}from"./index-B-SfSYtE.js";var n=e(),r=()=>(0,n.jsxs)(`div`,{children:[(0,n.jsx)(`h1`,{className:`font-serif text-4xl font-semibold`,children:`That desk does not exist.`}),(0,n.jsx)(t,{to:`/`,className:`mt-4 inline-flex h-11 items-center text-navy underline`,children:`Back to today`})]});export{r as notFoundComponent};

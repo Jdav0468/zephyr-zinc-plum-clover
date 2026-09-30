@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Ro-Mac Brief",
+      "hasCanvas": false,
+      "bodyTextLen": 3634,
+      "bodyTextHash": "6ce56c012dec1b06c036195b05220f01caf8f9e5771ec8d9957516a498e9182c",
+      "bodyTextPrefix": "Moving Your Future Forward Search the brief Search DAILY FREIGHT",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Ro-Mac Brief",
+      "hasCanvas": false,
+      "bodyTextLen": 3542,
+      "bodyTextHash": "a9f785e1432027520dcdb2c302baff821ddbaa2d73aa1d0bf1f0ae0f85f018be",
+      "bodyTextPrefix": "Moving Your Future Forward DAILY FREIGHT BRIEFING The Brief Open",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
