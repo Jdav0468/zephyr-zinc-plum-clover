@@ -1,130 +1,130 @@
 export type DailyJoke = { setup: string; punchline: string };
 
-// Freight puns. Safe to forward.
+// setup is the attribution. punchline is the quote, shown large.
 export const jokeBank: DailyJoke[] = [
   {
-    setup: "Why did the dispatcher cross the road?",
-    punchline: "To get the driver to the other side by Monday.",
+    setup: "Benjamin Franklin",
+    punchline: "Well done is better than well said.",
   },
   {
-    setup: "The dock said it would be a short wait.",
-    punchline: "It was a long weight.",
+    setup: "Robert Frost",
+    punchline: "The best way out is always through.",
   },
   {
-    setup: "Why was the flatbed so calm?",
-    punchline: "It had a level head.",
+    setup: "Calvin Coolidge",
+    punchline: "Nothing in the world can take the place of persistence.",
   },
   {
-    setup: "What did the reefer say to the produce?",
-    punchline: "You need to chill.",
+    setup: "John Wooden",
+    punchline: "Be quick, but don't hurry.",
   },
   {
-    setup: "Why did the shipper get in trouble?",
-    punchline: "He kept pallet-ing excuses.",
+    setup: "Maya Angelou",
+    punchline: "Do the best you can until you know better. Then when you know better, do better.",
   },
   {
-    setup: "The load was late.",
-    punchline: "It was past-due east.",
+    setup: "Colin Powell",
+    punchline: "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
   },
   {
-    setup: "Why don't trucks ever get lost in the paperwork?",
-    punchline: "They stay on the bill of lading.",
+    setup: "Lao Tzu",
+    punchline: "The journey of a thousand miles begins with a single step.",
   },
   {
-    setup: "What do you call a nervous scale?",
-    punchline: "A weigh station.",
+    setup: "Dwight D. Eisenhower",
+    punchline: "Plans are nothing; planning is everything.",
   },
   {
-    setup: "Why did the broker bring a ladder?",
-    punchline: "The rate was over everyone's head.",
+    setup: "Benjamin Franklin",
+    punchline: "Lost time is never found again.",
   },
   {
-    setup: "Why did the driver bring a pencil to the scale?",
-    punchline: "He heard it was a weigh station.",
+    setup: "John A. Shedd",
+    punchline: "A ship in harbor is safe, but that is not what ships are built for.",
   },
   {
-    setup: "The trailer told a secret.",
-    punchline: "It was off the record, but on the BOL.",
+    setup: "Edmund Hillary",
+    punchline: "It is not the mountain we conquer, but ourselves.",
   },
   {
-    setup: "Why was the hotshot always in a hurry?",
-    punchline: "It had van-ishing time.",
+    setup: "Aristotle",
+    punchline: "Well begun is half done.",
   },
   {
-    setup: "What do you call a truck that tells jokes?",
-    punchline: "A haul lot of trouble.",
+    setup: "Confucius",
+    punchline: "It does not matter how slowly you go as long as you do not stop.",
   },
   {
-    setup: "The coffee at the truck stop was strong.",
-    punchline: "It had been Joe for miles.",
+    setup: "The Ro-Mac Brief",
+    punchline: "The load is not done when it leaves. It is done when it arrives as promised.",
   },
   {
-    setup: "Why did the forklift get promoted?",
-    punchline: "It knew how to raise the issue.",
+    setup: "Benjamin Franklin",
+    punchline: "An ounce of prevention is worth a pound of cure.",
   },
   {
-    setup: "The appointment was flexible.",
-    punchline: "Mostly in the sense that it bent.",
+    setup: "Robert Collier",
+    punchline: "Success is the sum of small efforts, repeated day in and day out.",
   },
   {
-    setup: "Why did the tanker ace the test?",
-    punchline: "It was a fuel-proof plan.",
+    setup: "A proverb",
+    punchline: "Measure twice, cut once.",
   },
   {
-    setup: "What did the wide load say to the bridge?",
-    punchline: "I'm a little over, don't make a span of it.",
+    setup: "The Ro-Mac Brief",
+    punchline: "A green light at the scale is not luck. It is the paperwork done yesterday.",
   },
   {
-    setup: "Empty miles walked into a bar.",
-    punchline: "The bartender said, we don't serve your type. No payload.",
+    setup: "Steve Jobs",
+    punchline: "The only way to do great work is to love what you do.",
   },
   {
-    setup: "Why was the ELD a bad roommate?",
-    punchline: "It kept logging everything.",
+    setup: "A proverb",
+    punchline: "A place for everything, and everything in its place.",
   },
   {
-    setup: "The seal didn't match.",
-    punchline: "Someone had broken the bond.",
+    setup: "Theodore Roosevelt",
+    punchline: "Do what you can, with what you have, where you are.",
   },
   {
-    setup: "Why did the yard goat get the job?",
-    punchline: "It was great at shifting responsibility.",
+    setup: "The Ro-Mac Brief",
+    punchline: "On time is a promise. Early is a courtesy. Late needs a phone call.",
   },
   {
-    setup: "PrePass turned green.",
-    punchline: "That was a weigh to go.",
+    setup: "Abraham Lincoln",
+    punchline: "Things may come to those who wait, but only the things left by those who hustle.",
   },
   {
-    setup: "Who runs the dock?",
-    punchline: "A clipboard. It's board-certified.",
+    setup: "A Russian proverb",
+    punchline: "Trust, but verify.",
   },
   {
-    setup: "Why did the driver sit so long?",
-    punchline: "He was waiting for his ship to come in. It was a truck.",
+    setup: "Henry Ford",
+    punchline: "Coming together is a beginning. Keeping together is progress. Working together is success.",
   },
   {
-    setup: "He parked nose-in.",
-    punchline: "The forklift called it a dead end.",
+    setup: "The Ro-Mac Brief",
+    punchline: "Shiny side up. Everything else is a detail.",
   },
   {
-    setup: "The rate was all-in.",
-    punchline: "The lumper was an added fee-ture.",
+    setup: "Booker T. Washington",
+    punchline: "Success is to be measured not so much by the position that one has reached in life as by the obstacles which he has overcome.",
   },
   {
-    setup: "Why was the restroom driver friendly?",
-    punchline: "It had a stall tactic.",
+    setup: "Thomas Edison",
+    punchline: "There is no substitute for hard work.",
   },
   {
-    setup: "The lane was a straight shot.",
-    punchline: "Construction made it a detour de force.",
+    setup: "The Ro-Mac Brief",
+    punchline: "If it is not on the bill, it is not on the truck.",
   },
   {
-    setup: "Why did the freight go to therapy?",
-    punchline: "It had too much baggage, and none of it was strapped.",
+    setup: "Ralph Waldo Emerson",
+    punchline: "What you do speaks so loudly that I cannot hear what you say.",
   },
   {
-    setup: "Check-in asked for my number.",
-    punchline: "I gave them the pickup. They wanted a callback.",
+    setup: "The Ro-Mac Brief",
+    punchline: "Call before you are late. The dock cannot plan around a silence.",
   },
 ];
 

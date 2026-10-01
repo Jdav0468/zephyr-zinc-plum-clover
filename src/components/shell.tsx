@@ -196,11 +196,11 @@ export function Shell({ children, joke }: { children: ReactNode; joke: CornerJok
           </div>
         ) : null}
       </header>
-      <aside className="border-b border-line bg-wash" aria-label="Transportation joke of the day">
+      <aside className="border-b border-line bg-wash" aria-label="Quote of the day">
         <div className="mx-auto max-w-3xl px-4 py-5 text-center sm:px-6">
-          <p className="text-xs font-bold tracking-widest text-navy uppercase">Joke of the day</p>
-          <p className="mt-2 text-base leading-snug text-ink-soft">{joke.setup}</p>
+          <p className="text-xs font-bold tracking-widest text-navy uppercase">Quote of the day</p>
           <p className="mt-2 font-serif text-2xl leading-tight font-semibold text-ink">{joke.punchline}</p>
+          <p className="mt-2 text-sm leading-snug text-ink-soft">{joke.setup}</p>
         </div>
       </aside>
       <main className={cn("mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10")}>{children}</main>
