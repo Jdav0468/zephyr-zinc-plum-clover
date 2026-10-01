@@ -1,129 +1,130 @@
 export type DailyJoke = { setup: string; punchline: string };
 
+// Short stand-up bits. Premise, then the button. Safe to forward.
 export const jokeBank: DailyJoke[] = [
   {
-    setup: "The broker called the rate competitive.",
-    punchline: "Competitive with a bake sale.",
+    setup: "Dispatch said, make up a little time.",
+    punchline: "Sure. Soon as traffic, weather, and physics sign the release.",
   },
   {
-    setup: "GPS said recalculating.",
-    punchline: "So was the appointment. Only one of them admitted it.",
+    setup: "A green light at the scale is a religious experience.",
+    punchline: "It's the only review in trucking that doesn't come with a lecture.",
   },
   {
-    setup: "Why was the dock on time?",
-    punchline: "It wasn't. That was the whole bit.",
+    setup: "They call the first two hours free time.",
+    punchline: "Free for who? I brought the truck. They brought a clipboard and a vibe.",
   },
   {
-    setup: "The shipper said the pallets were light.",
-    punchline: "The forklift filed a dissenting opinion.",
+    setup: "The shipper said the freight was ready.",
+    punchline: "Ready is a word. A forklift is evidence.",
   },
   {
-    setup: "I asked the scale for a second opinion.",
-    punchline: "It said the first one was already rude enough.",
+    setup: "Parking after five is a sport.",
+    punchline: "The prize is a spot next to a reefer that runs all night like it's mad at you.",
   },
   {
-    setup: "What do you call a two-hour window?",
-    punchline: "A rumor with a timestamp.",
+    setup: "The officer asked what I was hauling.",
+    punchline: "Sailboat fuel. She asked for placards. The wind does not take placards.",
   },
   {
-    setup: "The lumper had a menu.",
-    punchline: "The special was whatever number made me flinch.",
+    setup: "Dispatch has two clocks.",
+    punchline: "The one in the truck, and the imaginary one they use for my arrival.",
   },
   {
-    setup: "Door 14 sent me to door 14.",
-    punchline: "Philosophers call that a paradox. Dispatch calls it Tuesday.",
+    setup: "A four-wheeler thinks a blinker is a courtesy.",
+    punchline: "On a truck it's a legal document. I filed it. You did not read it.",
   },
   {
-    setup: "The receiver is driver friendly.",
-    punchline: "There is a chair. The chair has tenure.",
+    setup: "Driver friendly means there is a chair.",
+    punchline: "The chair has tenure. The vending machine has opinions. You have two hours.",
   },
   {
-    setup: "A trucker walks into a scale house.",
-    punchline: "The scale says, we're going to need a bigger apology.",
+    setup: "A car cut me off, then hit the brakes.",
+    punchline: "Buddy, I am 80,000 pounds of already committed. My stopping distance is a novella.",
   },
   {
-    setup: "Dispatch asked for a quick update.",
-    punchline: "I sent a photo of the same cone. They called it content.",
+    setup: "The lumper fee is a cover charge.",
+    punchline: "I already bought the ticket. The show is a man on a forklift and my own money leaving.",
   },
   {
     setup: "I backed in on the first try.",
-    punchline: "No witnesses. The legend is still load-ready.",
+    punchline: "No witnesses. In trucking that's not a skill. That's a cold case.",
   },
   {
-    setup: "Detention pay is real.",
-    punchline: "So is Bigfoot. I have heard excellent podcasts about both.",
+    setup: "Detention is in the contract.",
+    punchline: "So is Bigfoot, if you read the comments. Only one of them has ever paid me.",
   },
   {
-    setup: "The truck-stop coffee had a warning label.",
-    punchline: "It was an MC number.",
+    setup: "Hundred-mile coffee is not a drink.",
+    punchline: "It's a threat the diner makes, and a promise the thermos keeps.",
   },
   {
-    setup: "Easy in, easy out, they said.",
-    punchline: "I went in during one administration and came out in the next.",
+    setup: "This should be easy, dispatch said.",
+    punchline: "Those four words have ended more afternoons than weather.",
   },
   {
-    setup: "The tarp was a fifteen-minute job.",
-    punchline: "The wind read that as a challenge and accepted.",
+    setup: "The appointment was a window.",
+    punchline: "I arrived in the window. The dock arrived in a different genre.",
   },
   {
-    setup: "Team drivers, the rate confirmation said.",
-    punchline: "My co-driver was a thermos. It did not take a turn.",
+    setup: "Team drivers share a bunk the size of a rumor.",
+    punchline: "One sleeps. One pretends the other snores in a foreign language.",
   },
   {
-    setup: "Why did the wide load stop at the bridge?",
-    punchline: "The bridge had a dress code, and optimism was not on it.",
+    setup: "A wide load does not negotiate with a bridge.",
+    punchline: "The bridge has been there longer, and it does not check its email.",
   },
   {
-    setup: "Empty miles don't count.",
-    punchline: "Tell that to the fuel gauge. It keeps receipts.",
+    setup: "Empty miles are not empty.",
+    punchline: "They're full of diesel, and the fuel gauge is a better accountant than I am.",
   },
   {
-    setup: "My ELD and I are in a meeting.",
-    punchline: "It takes notes, shares them with everyone, and never blinks.",
+    setup: "The ELD does not nag.",
+    punchline: "It takes notes, shares them with the company, and never blinks. That's a witness.",
   },
   {
-    setup: "The bill of lading said 12 pallets.",
-    punchline: "Twelve was the biography. The dock preferred fiction.",
+    setup: "The bill said 12 pallets.",
+    punchline: "The dock produced 12 pallets and a surprise. The surprise did not have a weight.",
   },
   {
     setup: "Hotshot means now.",
-    punchline: "Now arrived late, ordered a coffee, and asked who was in charge.",
+    punchline: "Now is a small van with a big opinion and no interest in your appointment.",
   },
   {
-    setup: "The seal number had to match.",
-    punchline: "The seal had already matched with a better trailer.",
+    setup: "PrePass green is the good ending.",
+    punchline: "Red is the universe saying, let's review your life choices on the shoulder.",
   },
   {
-    setup: "Who is in charge?",
-    punchline: "A clipboard. No authority. Absolute power.",
+    setup: "Who's in charge at the dock?",
+    punchline: "A clipboard. It cannot drive, it cannot load, and somehow it outranks both of us.",
   },
   {
-    setup: "Cheap fuel was at the last exit.",
-    punchline: "So was my patience. We nodded and kept going.",
+    setup: "Cheap diesel was at the last exit.",
+    punchline: "So was a parking spot. I missed both and called it a strategy.",
   },
   {
-    setup: "Pull forward, the dock said.",
-    punchline: "The bollard said that was adorable.",
+    setup: "Nose-in at the dock is a choice.",
+    punchline: "Unless the forklift learned to drive through an engine, detention starts never.",
   },
   {
     setup: "The rate was all-in.",
-    punchline: "All-in did not cover the part where I wait.",
+    punchline: "All-in did not include the waiting, the lumper, or the part where I age.",
   },
   {
-    setup: "The sign said the restroom was driver friendly.",
-    punchline: "The restroom has never met a driver and would like to keep it that way.",
+    setup: "Shiny side up is the whole prayer.",
+    punchline: "Four words. Keep the truck upright. Everything else is commentary.",
   },
   {
     setup: "The lane was a straight shot.",
-    punchline: "Construction brought a cone, a grudge, and a new map.",
+    punchline: "Construction brought cones, a flagger, and a new definition of straight.",
   },
   {
-    setup: "They said the freight rides itself.",
-    punchline: "It does not. It needs straps and adult supervision.",
+    setup: "They said the receiver was great.",
+    punchline: "Great is what brokers say. The receiver had not received the memo, or me.",
   },
   {
-    setup: "Check-in asked for my number.",
-    punchline: "I gave them the pickup number. They wanted a happier one.",
+    setup: "Check-in wanted the pickup number.",
+    punchline: "I had it. They wanted it on a different form, in a different decade.",
   },
 ];
 
