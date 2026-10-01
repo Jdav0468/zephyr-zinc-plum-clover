@@ -1,130 +1,130 @@
 export type DailyJoke = { setup: string; punchline: string };
 
-// Dry work jokes. The whole desk, not just the road. Safe to forward.
+// Work jokes told like stand-up: recognizable premise, then the button.
 export const jokeBank: DailyJoke[] = [
   {
-    setup: "The meeting could have been an email.",
-    punchline: "The email could have been a no.",
+    setup: "Per my last email.",
+    punchline: "That is not a greeting. That is a crime scene, and you are the chalk outline.",
   },
   {
-    setup: "Someone marked it urgent.",
-    punchline: "It was not. It was Tuesday.",
+    setup: "Reply all is the only time the whole company agrees.",
+    punchline: "What they agree on is that you should not have done that.",
   },
   {
-    setup: "I had a quick question.",
-    punchline: "It is now a thread.",
+    setup: "The invite said optional.",
+    punchline: "Optional like a fire drill. You can skip it. Then someone tells you what you missed, which is another meeting.",
+  },
+  {
+    setup: "The printer says it is jammed.",
+    punchline: "I opened it. There is no jam. There is a grievance.",
+  },
+  {
+    setup: "Urgent was in the subject line.",
+    punchline: "I opened it. Potluck sign-up. The emergency was potato salad.",
   },
   {
     setup: "We circled back.",
-    punchline: "We are still circling.",
-  },
-  {
-    setup: "The printer is out of paper.",
-    punchline: "This is the outage.",
-  },
-  {
-    setup: "I'll be there in five minutes.",
-    punchline: "Five minutes has entered a meeting.",
-  },
-  {
-    setup: "It was a working lunch.",
-    punchline: "The work ate. I did not.",
-  },
-  {
-    setup: "Please see the attached.",
-    punchline: "There was no attached.",
-  },
-  {
-    setup: "We are all on the same page.",
-    punchline: "The page is blank, but we are on it.",
-  },
-  {
-    setup: "This will only take a minute.",
-    punchline: "The minute has dependents.",
-  },
-  {
-    setup: "I sent a follow-up.",
-    punchline: "The follow-up is now the job.",
+    punchline: "Circling back is what you call it when nobody did the thing, and now the thing has frequent-flyer miles.",
   },
   {
     setup: "Can everyone see my screen?",
-    punchline: "No one can see the screen. We have accepted this.",
-  },
-  {
-    setup: "The deadline was Friday.",
-    punchline: "Friday has asked for an extension.",
-  },
-  {
-    setup: "Let's take this offline.",
-    punchline: "Offline is where it goes to live.",
-  },
-  {
-    setup: "I looped in the right person.",
-    punchline: "The right person is out of office until further notice.",
-  },
-  {
-    setup: "Per my last email.",
-    punchline: "Which was also per the one before that.",
-  },
-  {
-    setup: "We need a decision today.",
-    punchline: "Today has formed a committee.",
-  },
-  {
-    setup: "The calendar invite said optional.",
-    punchline: "Attendance was taken.",
-  },
-  {
-    setup: "I saved the file.",
-    punchline: "The file has saved itself somewhere else.",
-  },
-  {
-    setup: "Who owns this?",
-    punchline: "Everyone was copied. No one owns it.",
-  },
-  {
-    setup: "The status is pending.",
-    punchline: "Pending is the status. It has been promoted.",
-  },
-  {
-    setup: "I'll have that to you by end of day.",
-    punchline: "End of day has been moved to tomorrow morning, tentatively.",
-  },
-  {
-    setup: "We should hop on a call.",
-    punchline: "The call will be an email that could have been nothing.",
+    punchline: "No. And we will spend four minutes on the wrong screen. This is also called teamwork.",
   },
   {
     setup: "Thanks in advance.",
-    punchline: "A bold assumption, sent at 4:58.",
+    punchline: "I have not agreed to this. You thanked me for a favor that is still in the parking lot.",
+  },
+  {
+    setup: "I'll be there in five minutes.",
+    punchline: "Five minutes saw the email, formed a committee, and will circle back.",
+  },
+  {
+    setup: "My boss said the meeting would be quick.",
+    punchline: "Quick means eight people and a slideshow. The slideshow had an agenda. We are now in the agenda's meeting.",
+  },
+  {
+    setup: "Just a quick question.",
+    punchline: "It was not a question. It was a project, wearing a question's coat.",
+  },
+  {
+    setup: "Let's take this offline.",
+    punchline: "Offline is where emails go to get a longer email.",
+  },
+  {
+    setup: "The deadline was Friday.",
+    punchline: "Friday looked at the deadline, said per my last email, and left.",
+  },
+  {
+    setup: "I looped in the right person.",
+    punchline: "The right person has an out-of-office that says loop in someone else. We are a circle now.",
+  },
+  {
+    setup: "Who owns this?",
+    punchline: "Twelve people were copied. Ownership was not. Ownership is out today.",
+  },
+  {
+    setup: "Please see attached.",
+    punchline: "I saw. There was no attached. I have never felt more seen.",
+  },
+  {
+    setup: "We need a decision today.",
+    punchline: "Today has scheduled a meeting to decide whether to decide. I am optional, which means I am going.",
   },
   {
     setup: "The spreadsheet is the source of truth.",
-    punchline: "There are three spreadsheets. They have not met.",
+    punchline: "There are three. They have not been introduced. I would not put them in the same room.",
   },
   {
-    setup: "I am heads down.",
-    punchline: "My head is down. The work is also down there. We are looking at it.",
-  },
-  {
-    setup: "Let's not boil the ocean.",
-    punchline: "We have scheduled a meeting to discuss the ocean.",
-  },
-  {
-    setup: "Reply all was an accident.",
-    punchline: "The accident has replies.",
-  },
-  {
-    setup: "The out of office is on.",
-    punchline: "So is the person. This is a separate issue.",
-  },
-  {
-    setup: "We actioned it.",
-    punchline: "The action was forwarding it.",
+    setup: "End of day.",
+    punchline: "End of day means 5 for me and whenever you are still at your desk for you. Those are different time zones.",
   },
   {
     setup: "Any updates?",
-    punchline: "The update is that there is no update. Sent with confidence.",
+    punchline: "The update is that I am writing the update. The update is now late because of the update.",
+  },
+  {
+    setup: "I am heads down.",
+    punchline: "This is what we say when we are reading the email about being heads down.",
+  },
+  {
+    setup: "Let's not boil the ocean.",
+    punchline: "So we scheduled an hour to discuss the ocean, the pot, and who brought the pot.",
+  },
+  {
+    setup: "Reply all was an accident.",
+    punchline: "The accident has a reply chain. The chain has opinions. One opinion is yours, in writing, forever.",
+  },
+  {
+    setup: "We actioned it.",
+    punchline: "The action was forwarding it to someone who will action it by forwarding it. The work is in great shape.",
+  },
+  {
+    setup: "Hop on a quick call.",
+    punchline: "The call is to plan the call. I have blocked 30 minutes to learn when we are meeting.",
+  },
+  {
+    setup: "The status is pending.",
+    punchline: "Pending got a promotion. It has reports now. One of them is me.",
+  },
+  {
+    setup: "Same page.",
+    punchline: "We are on the same page. The page is blank. Leadership calls this alignment.",
+  },
+  {
+    setup: "The out-of-office is on.",
+    punchline: "So is the person. The out-of-office is the only one answering, and it is more helpful.",
+  },
+  {
+    setup: "I saved the file.",
+    punchline: "The file saved itself somewhere with a name like Final_final_v7. We do not speak of v6.",
+  },
+  {
+    setup: "It was a working lunch.",
+    punchline: "The lunch worked. I took notes. The notes say we should have a working lunch.",
+  },
+  {
+    setup: "Following up on my follow-up.",
+    punchline: "At this point the follow-up has a desk, a badge, and a better attendance record than I do.",
   },
 ];
 
