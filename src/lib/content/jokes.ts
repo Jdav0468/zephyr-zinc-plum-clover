@@ -38,6 +38,10 @@ export const jokeBank: DailyJoke[] = [
     punchline: "Six people pointed at a clipboard.",
   },
   {
+    setup: "Nothing says welcome like a scale.",
+    punchline: "And a number you did not come here to hear.",
+  },
+  {
     setup: "My ETA was 2:10.",
     punchline: "Reality filed a different plan and did not cc me.",
   },
@@ -64,6 +68,62 @@ export const jokeBank: DailyJoke[] = [
   {
     setup: "The truck-stop coffee could strip paint.",
     punchline: "I ordered a second cup. Out of respect.",
+  },
+  {
+    setup: "The tarp was called a fifteen-minute job.",
+    punchline: "The wind was not copied on that email.",
+  },
+  {
+    setup: "Fuel was cheap at the last exit.",
+    punchline: "The last exit was in 2019.",
+  },
+  {
+    setup: "The ELD asked if I was still driving.",
+    punchline: "I asked it the same question.",
+  },
+  {
+    setup: "The rate confirmation said team drivers.",
+    punchline: "The team was me and a thermos.",
+  },
+  {
+    setup: "Wide load means extra room.",
+    punchline: "It does not mean the bridge got the memo.",
+  },
+  {
+    setup: "Detention starts after two hours.",
+    punchline: "The clock at the dock starts when it feels like it.",
+  },
+  {
+    setup: "The seal number had to match.",
+    punchline: "The seal had other plans and a head start.",
+  },
+  {
+    setup: "Empty miles are not really empty.",
+    punchline: "They are full of diesel and regret.",
+  },
+  {
+    setup: "The warehouse said pull forward.",
+    punchline: "Forward was a suggestion. The bollard was a fact.",
+  },
+  {
+    setup: "Hotshot means it has to move now.",
+    punchline: "Now arrived fashionably late, in a Sprinter.",
+  },
+  {
+    setup: "The BOL said 12 pallets.",
+    punchline: "The dock said 12 pallets and a surprise.",
+  },
+  {
+    setup: "I asked for the consignee.",
+    punchline: "They sent me a phone number that rings in 2004.",
+  },
+  {
+    setup: "The lane was a straight shot.",
+    punchline: "Construction had a different geometry.",
+  },
+  {
+    setup: "They said the freight rides itself.",
+    punchline: "It does not. It needs straps, a prayer, and a second look.",
   },
 ];
 
