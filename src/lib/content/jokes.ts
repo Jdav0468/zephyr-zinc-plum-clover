@@ -2,128 +2,128 @@ export type DailyJoke = { setup: string; punchline: string };
 
 export const jokeBank: DailyJoke[] = [
   {
-    setup: "The broker called the rate competitive.",
-    punchline: "Competitive with a bake sale.",
+    setup: "The broker said the rate was competitive.",
+    punchline: "So is a wet handshake. Nobody leaves satisfied.",
   },
   {
     setup: "GPS said recalculating.",
-    punchline: "So was I. Only one of us was being paid for it.",
+    punchline: "That's what my ex said, right before she took the good blanket.",
   },
   {
     setup: "Why was the appointment on time?",
-    punchline: "It wasn't. That was the joke.",
+    punchline: "It wasn't. Foreplay was cancelled. So was the freight.",
   },
   {
     setup: "The shipper said the pallets were light.",
-    punchline: "The forklift filed a dissenting opinion, in writing, on my back.",
+    punchline: "That's what she said. The forklift did not laugh.",
   },
   {
-    setup: "I asked the scale for mercy.",
-    punchline: "It said mercy is not a certified unit of measure.",
+    setup: "I asked the scale to be gentle.",
+    punchline: "It said gentle is extra, and I was already over.",
   },
   {
     setup: "What do you call a two-hour window?",
-    punchline: "A rumor with a timestamp.",
+    punchline: "Edging. With paperwork.",
   },
   {
     setup: "The lumper had a menu.",
-    punchline: "The special was whatever number made me flinch.",
+    punchline: "Full service cost more. I only wanted the trailer unloaded, not a relationship.",
   },
   {
     setup: "Door 14 sent me to door 14.",
-    punchline: "Philosophers call that a paradox. I call it Tuesday.",
+    punchline: "I've had shorter arguments with people I was sleeping with.",
   },
   {
     setup: "The receiver is driver friendly.",
-    punchline: "Translation: there is a chair, and the chair is not sorry.",
+    punchline: "Friendly like a motel that rents by the hour and judges you anyway.",
   },
   {
     setup: "A trucker walks into a scale house.",
-    punchline: "The scale says, we're going to need a bigger apology.",
+    punchline: "The scale says drop the attitude and about four hundred pounds. I said buy me dinner first.",
   },
   {
-    setup: "Dispatch wanted a quick update.",
-    punchline: "I sent a photo of the same cone. They called it content.",
+    setup: "Dispatch wanted a quickie.",
+    punchline: "An update. They clarified. Too late. The mood was gone, and so was the window.",
   },
   {
     setup: "I backed in on the first try.",
-    punchline: "Witnesses were unavailable. The legend, however, is load-ready.",
+    punchline: "Nobody saw it. Story of my love life, except this one counts.",
   },
   {
-    setup: "Detention pay is real.",
-    punchline: "So is Bigfoot. I have heard excellent podcasts about both.",
+    setup: "Detention starts after two hours.",
+    punchline: "So does regret. Only one of them is supposed to pay.",
   },
   {
-    setup: "The coffee had a warning label.",
-    punchline: "It was the MC number.",
+    setup: "The truck-stop coffee could strip paint.",
+    punchline: "And a bad decision. I ordered a second cup. For the decision.",
   },
   {
     setup: "Easy in, easy out, they said.",
-    punchline: "I went in during one administration and came out in the next.",
+    punchline: "I have heard that before. I was still there at dawn, underpaid.",
   },
   {
     setup: "The tarp was a fifteen-minute job.",
-    punchline: "The wind read that as a challenge and accepted.",
+    punchline: "The wind got handsy. I did not consent, and neither did the freight.",
   },
   {
     setup: "Team drivers, the rate con said.",
-    punchline: "My co-driver was a thermos. It did not take a turn.",
+    punchline: "One bunk, two people, zero eye contact. Marriage, but with an ELD.",
   },
   {
-    setup: "Why did the wide load stop at the bridge?",
-    punchline: "The bridge had a dress code, and optimism was not on it.",
+    setup: "Why did the wide load get pulled over?",
+    punchline: "Too much ass for the lane, and the bridge was not in the mood.",
   },
   {
-    setup: "Empty miles don't count.",
-    punchline: "Tell that to the fuel gauge. It keeps receipts.",
+    setup: "Empty miles don't pay.",
+    punchline: "Neither did the last date. At least the truck warned me on the gauge.",
   },
   {
     setup: "My ELD and I are in couples therapy.",
-    punchline: "It says I never listen. It is not wrong, and it is not invited.",
+    punchline: "It watches me sleep and tells on me. That's not a partner. That's a narc.",
   },
   {
     setup: "The BOL said 12 pallets.",
-    punchline: "Twelve was a biography. The dock preferred fiction.",
+    punchline: "Twelve was the safe word. The dock blew past it.",
   },
   {
     setup: "Hotshot means now.",
-    punchline: "Now arrived late, ordered a coffee, and asked who was in charge.",
+    punchline: "Now showed up late, smelled like diesel, and still expected a tip.",
   },
   {
     setup: "The seal had to match.",
-    punchline: "The seal had already matched with a better trailer.",
+    punchline: "The seal had already matched with someone who didn't ask questions.",
   },
   {
     setup: "Who's in charge?",
-    punchline: "A clipboard. It has no authority and absolute power.",
+    punchline: "A clipboard with boundary issues and no safe word.",
   },
   {
     setup: "Cheap fuel was at the last exit.",
-    punchline: "So was my youth. We nodded and kept going.",
+    punchline: "So was a decision I will not be putting on the BOL.",
   },
   {
     setup: "Pull forward, the dock said.",
-    punchline: "The bollard said that was adorable.",
+    punchline: "I said not without dinner. The bollard did not negotiate.",
   },
   {
     setup: "The rate was all-in.",
-    punchline: "All-in did not cover the part where I age.",
+    punchline: "All-in did not include the emotional labor, or the lumper's wandering hands.",
   },
   {
     setup: "Driver-friendly restroom.",
-    punchline: "Friendly like a cat that has just met you and already regrets it.",
+    punchline: "I have seen cleaner confessions. And more privacy.",
   },
   {
     setup: "The lane was a straight shot.",
-    punchline: "Construction brought a cone, a grudge, and a new map.",
+    punchline: "Construction made it complicated. My ex could relate.",
   },
   {
     setup: "The freight rides itself.",
-    punchline: "It does not. It needs straps and adult supervision.",
+    punchline: "It does not. Nothing good does. Bring straps.",
   },
   {
     setup: "Check-in asked for my number.",
-    punchline: "I gave them the pickup number. They wanted a happier one.",
+    punchline: "I gave them the pickup number. They looked disappointed. Join the club.",
   },
 ];
 
