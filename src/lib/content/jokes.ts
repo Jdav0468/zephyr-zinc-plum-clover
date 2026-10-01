@@ -1,130 +1,130 @@
 export type DailyJoke = { setup: string; punchline: string };
 
-// Deadpan. The joke is the flat sentence. Safe to forward.
+// Dry work jokes. The whole desk, not just the road. Safe to forward.
 export const jokeBank: DailyJoke[] = [
   {
-    setup: "Dispatch asked if I could make up the time.",
-    punchline: "I said no. They sent a follow-up.",
+    setup: "The meeting could have been an email.",
+    punchline: "The email could have been a no.",
   },
   {
-    setup: "The scale was open.",
-    punchline: "We had hoped to avoid each other.",
+    setup: "Someone marked it urgent.",
+    punchline: "It was not. It was Tuesday.",
   },
   {
-    setup: "Home time was on the schedule.",
-    punchline: "Dispatch has reviewed the schedule.",
+    setup: "I had a quick question.",
+    punchline: "It is now a thread.",
   },
   {
-    setup: "The freight was ready.",
-    punchline: "This was not accurate.",
+    setup: "We circled back.",
+    punchline: "We are still circling.",
   },
   {
-    setup: "There were two spots left at the truck stop.",
-    punchline: "Both were already a theory.",
+    setup: "The printer is out of paper.",
+    punchline: "This is the outage.",
   },
   {
-    setup: "The window was 8 to 10.",
-    punchline: "I arrived at 8. They arrived at an opinion.",
+    setup: "I'll be there in five minutes.",
+    punchline: "Five minutes has entered a meeting.",
   },
   {
-    setup: "It was one more load.",
-    punchline: "It was not.",
+    setup: "It was a working lunch.",
+    punchline: "The work ate. I did not.",
   },
   {
-    setup: "I signaled.",
-    punchline: "The car took this as a conversation.",
+    setup: "Please see the attached.",
+    punchline: "There was no attached.",
   },
   {
-    setup: "The facility is driver friendly.",
-    punchline: "There is a chair.",
+    setup: "We are all on the same page.",
+    punchline: "The page is blank, but we are on it.",
   },
   {
-    setup: "A car pulled in front of me and slowed down.",
-    punchline: "I have 80,000 pounds of notes.",
+    setup: "This will only take a minute.",
+    punchline: "The minute has dependents.",
   },
   {
-    setup: "The lumper fee was optional.",
-    punchline: "In the sense that waiting was also an option.",
+    setup: "I sent a follow-up.",
+    punchline: "The follow-up is now the job.",
   },
   {
-    setup: "I backed in on the first try.",
-    punchline: "There is no one to confirm this.",
+    setup: "Can everyone see my screen?",
+    punchline: "No one can see the screen. We have accepted this.",
   },
   {
-    setup: "Detention is in the contract.",
-    punchline: "Payment is in a different document. We have not found it.",
+    setup: "The deadline was Friday.",
+    punchline: "Friday has asked for an extension.",
   },
   {
-    setup: "The coffee was strong.",
-    punchline: "It has been strong since March.",
+    setup: "Let's take this offline.",
+    punchline: "Offline is where it goes to live.",
   },
   {
-    setup: "Dispatch said it should be easy.",
-    punchline: "We are no longer using that word.",
+    setup: "I looped in the right person.",
+    punchline: "The right person is out of office until further notice.",
   },
   {
-    setup: "The GPS said 2:10.",
-    punchline: "The dock has not been informed.",
+    setup: "Per my last email.",
+    punchline: "Which was also per the one before that.",
   },
   {
-    setup: "We are a team.",
-    punchline: "One of us is asleep. This is the system.",
+    setup: "We need a decision today.",
+    punchline: "Today has formed a committee.",
   },
   {
-    setup: "The load was wide.",
-    punchline: "The bridge was not interested.",
+    setup: "The calendar invite said optional.",
+    punchline: "Attendance was taken.",
   },
   {
-    setup: "The miles were empty.",
-    punchline: "The fuel receipt was not.",
+    setup: "I saved the file.",
+    punchline: "The file has saved itself somewhere else.",
   },
   {
-    setup: "The logbook asked how long I had been driving.",
-    punchline: "It already knew.",
+    setup: "Who owns this?",
+    punchline: "Everyone was copied. No one owns it.",
   },
   {
-    setup: "The bill said 42,000.",
-    punchline: "The scale disagreed, and it had a printer.",
+    setup: "The status is pending.",
+    punchline: "Pending is the status. It has been promoted.",
   },
   {
-    setup: "It was a hotshot.",
-    punchline: "So was the waiting.",
+    setup: "I'll have that to you by end of day.",
+    punchline: "End of day has been moved to tomorrow morning, tentatively.",
   },
   {
-    setup: "The scale gave me a green light.",
-    punchline: "This was the highlight.",
+    setup: "We should hop on a call.",
+    punchline: "The call will be an email that could have been nothing.",
   },
   {
-    setup: "I asked who was in charge.",
-    punchline: "They handed me a clipboard.",
+    setup: "Thanks in advance.",
+    punchline: "A bold assumption, sent at 4:58.",
   },
   {
-    setup: "Fuel was cheaper at the last exit.",
-    punchline: "I am aware of this now.",
+    setup: "The spreadsheet is the source of truth.",
+    punchline: "There are three spreadsheets. They have not met.",
   },
   {
-    setup: "He parked nose-in and asked about detention.",
-    punchline: "The forklift has not learned to drive through an engine.",
+    setup: "I am heads down.",
+    punchline: "My head is down. The work is also down there. We are looking at it.",
   },
   {
-    setup: "The rate was all-in.",
-    punchline: "The waiting was extra. This was explained later.",
+    setup: "Let's not boil the ocean.",
+    punchline: "We have scheduled a meeting to discuss the ocean.",
   },
   {
-    setup: "The restroom is driver friendly.",
-    punchline: "We have met. It was brief.",
+    setup: "Reply all was an accident.",
+    punchline: "The accident has replies.",
   },
   {
-    setup: "The lane was direct.",
-    punchline: "Construction has introduced a subplot.",
+    setup: "The out of office is on.",
+    punchline: "So is the person. This is a separate issue.",
   },
   {
-    setup: "The receiver was supposed to be easy.",
-    punchline: "The receiver has not received this information.",
+    setup: "We actioned it.",
+    punchline: "The action was forwarding it.",
   },
   {
-    setup: "Check-in asked if I was the driver.",
-    punchline: "I had brought the truck, so the answer seemed likely.",
+    setup: "Any updates?",
+    punchline: "The update is that there is no update. Sent with confidence.",
   },
 ];
 
