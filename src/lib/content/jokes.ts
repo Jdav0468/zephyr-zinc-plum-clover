@@ -1,130 +1,130 @@
 export type DailyJoke = { setup: string; punchline: string };
 
-// Work jokes told like stand-up: recognizable premise, then the button.
+// Misdirection. The last line is the turn, not a caption. Safe to forward.
 export const jokeBank: DailyJoke[] = [
   {
-    setup: "Per my last email.",
-    punchline: "That is not a greeting. That is a crime scene, and you are the chalk outline.",
+    setup: "I told my boss I needed a day off.",
+    punchline: "He said, me too. We went back to work. Team building.",
   },
   {
-    setup: "Reply all is the only time the whole company agrees.",
-    punchline: "What they agree on is that you should not have done that.",
+    setup: "My review said I take too much initiative.",
+    punchline: "So I decided not to read the rest.",
   },
   {
-    setup: "The invite said optional.",
-    punchline: "Optional like a fire drill. You can skip it. Then someone tells you what you missed, which is another meeting.",
+    setup: "They said dress for the job you want.",
+    punchline: "I came in wearing a bathrobe. They said not that job.",
   },
   {
-    setup: "The printer says it is jammed.",
-    punchline: "I opened it. There is no jam. There is a grievance.",
+    setup: "I asked what my title meant.",
+    punchline: "They said it means you answer the phone. The phone is the title.",
   },
   {
-    setup: "Urgent was in the subject line.",
-    punchline: "I opened it. Potluck sign-up. The emergency was potato salad.",
+    setup: "Boss said we're a family.",
+    punchline: "I asked about the inheritance. He said wrong family.",
   },
   {
-    setup: "We circled back.",
-    punchline: "Circling back is what you call it when nobody did the thing, and now the thing has frequent-flyer miles.",
+    setup: "I called in sick.",
+    punchline: "He said I didn't sound sick. I said I don't sound at work either. That's the system.",
   },
   {
-    setup: "Can everyone see my screen?",
-    punchline: "No. And we will spend four minutes on the wrong screen. This is also called teamwork.",
+    setup: "They told me to do more with less.",
+    punchline: "I did less. They said I had misunderstood the assignment. I had not.",
   },
   {
-    setup: "Thanks in advance.",
-    punchline: "I have not agreed to this. You thanked me for a favor that is still in the parking lot.",
+    setup: "The meeting invite said optional.",
+    punchline: "I tested it. It was not optional. Science.",
   },
   {
-    setup: "I'll be there in five minutes.",
-    punchline: "Five minutes saw the email, formed a committee, and will circle back.",
+    setup: "I got employee of the month.",
+    punchline: "The prize was a mug that says employee of the month. I already had the job.",
   },
   {
-    setup: "My boss said the meeting would be quick.",
-    punchline: "Quick means eight people and a slideshow. The slideshow had an agenda. We are now in the agenda's meeting.",
+    setup: "I told my boss three companies were after me.",
+    punchline: "He asked which ones. Gas, electric, and cable.",
   },
   {
-    setup: "Just a quick question.",
-    punchline: "It was not a question. It was a project, wearing a question's coat.",
+    setup: "They asked for my two weeks.",
+    punchline: "I said I can do it in one if nobody calls a meeting.",
   },
   {
-    setup: "Let's take this offline.",
-    punchline: "Offline is where emails go to get a longer email.",
+    setup: "My coworker said this will only take a second.",
+    punchline: "He was right. The second took forty minutes. The second was honest. He was not.",
   },
   {
-    setup: "The deadline was Friday.",
-    punchline: "Friday looked at the deadline, said per my last email, and left.",
+    setup: "I suggested we cancel the meeting.",
+    punchline: "They scheduled a meeting to discuss it.",
   },
   {
-    setup: "I looped in the right person.",
-    punchline: "The right person has an out-of-office that says loop in someone else. We are a circle now.",
+    setup: "Boss said think outside the box.",
+    punchline: "I did. He said the box was load-bearing. Get back in.",
   },
   {
-    setup: "Who owns this?",
-    punchline: "Twelve people were copied. Ownership was not. Ownership is out today.",
+    setup: "I asked for a raise.",
+    punchline: "They gave me a new title. The title cannot buy lunch.",
   },
   {
-    setup: "Please see attached.",
-    punchline: "I saw. There was no attached. I have never felt more seen.",
+    setup: "Someone said sorry for the late email.",
+    punchline: "If they were sorry, there would be no email. There was an email.",
   },
   {
-    setup: "We need a decision today.",
-    punchline: "Today has scheduled a meeting to decide whether to decide. I am optional, which means I am going.",
+    setup: "I have a work phone and a personal phone.",
+    punchline: "Both rang at dinner. Collaboration.",
   },
   {
-    setup: "The spreadsheet is the source of truth.",
-    punchline: "There are three. They have not been introduced. I would not put them in the same room.",
+    setup: "They said the door is always open.",
+    punchline: "I walked in. They were on a call. The door was a metaphor. I was not.",
   },
   {
-    setup: "End of day.",
-    punchline: "End of day means 5 for me and whenever you are still at your desk for you. Those are different time zones.",
+    setup: "I finished early.",
+    punchline: "This was treated as a scheduling error.",
   },
   {
-    setup: "Any updates?",
-    punchline: "The update is that I am writing the update. The update is now late because of the update.",
+    setup: "The training was mandatory.",
+    punchline: "The quiz asked if I had enjoyed the training. I did not enjoy the question.",
   },
   {
-    setup: "I am heads down.",
-    punchline: "This is what we say when we are reading the email about being heads down.",
+    setup: "I replied all by accident.",
+    punchline: "Everyone replied all to say don't reply all. We are nothing if not consistent.",
   },
   {
-    setup: "Let's not boil the ocean.",
-    punchline: "So we scheduled an hour to discuss the ocean, the pot, and who brought the pot.",
+    setup: "Boss asked if I had a minute.",
+    punchline: "I said yes. That was the mistake. The minute brought slides.",
   },
   {
-    setup: "Reply all was an accident.",
-    punchline: "The accident has a reply chain. The chain has opinions. One opinion is yours, in writing, forever.",
+    setup: "They moved me to a window seat.",
+    punchline: "The window faces the parking lot. I can see my car. It looks free.",
   },
   {
-    setup: "We actioned it.",
-    punchline: "The action was forwarding it to someone who will action it by forwarding it. The work is in great shape.",
+    setup: "I was told to take ownership.",
+    punchline: "I asked if ownership came with keys. It came with a spreadsheet.",
   },
   {
-    setup: "Hop on a quick call.",
-    punchline: "The call is to plan the call. I have blocked 30 minutes to learn when we are meeting.",
+    setup: "The printer works if you stand there.",
+    punchline: "I am not in IT. I am a presence. The presence is billable, apparently not.",
   },
   {
-    setup: "The status is pending.",
-    punchline: "Pending got a promotion. It has reports now. One of them is me.",
+    setup: "We had a brainstorm.",
+    punchline: "It rained ideas. We left with the same umbrella.",
   },
   {
-    setup: "Same page.",
-    punchline: "We are on the same page. The page is blank. Leadership calls this alignment.",
+    setup: "I said I was at capacity.",
+    punchline: "They added a small thing. The small thing brought friends.",
   },
   {
-    setup: "The out-of-office is on.",
-    punchline: "So is the person. The out-of-office is the only one answering, and it is more helpful.",
+    setup: "The survey was anonymous.",
+    punchline: "It asked for my department, my role, and my birthday. Very anonymous. Very festive.",
   },
   {
-    setup: "I saved the file.",
-    punchline: "The file saved itself somewhere with a name like Final_final_v7. We do not speak of v6.",
+    setup: "I logged off on time.",
+    punchline: "Someone Slacked great, you're still online. I was not. My ghost has a better work ethic.",
   },
   {
-    setup: "It was a working lunch.",
-    punchline: "The lunch worked. I took notes. The notes say we should have a working lunch.",
+    setup: "They said culture eats strategy.",
+    punchline: "Culture ate the strategy. We still have a meeting about the strategy.",
   },
   {
-    setup: "Following up on my follow-up.",
-    punchline: "At this point the follow-up has a desk, a badge, and a better attendance record than I do.",
+    setup: "I asked what success looks like.",
+    punchline: "They said you'll know. I do not know. This is also called success, pending.",
   },
 ];
 
