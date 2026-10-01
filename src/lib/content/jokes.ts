@@ -1,130 +1,130 @@
 export type DailyJoke = { setup: string; punchline: string };
 
-// Short stand-up bits. Premise, then the button. Safe to forward.
+// Spoken bits. Scene, then the button. Safe to forward.
 export const jokeBank: DailyJoke[] = [
   {
-    setup: "Dispatch said, make up a little time.",
-    punchline: "Sure. Soon as traffic, weather, and physics sign the release.",
+    setup: "Dispatch texted, you close?",
+    punchline: "I'm at the gate. That's not close. Sometimes the gate and the dock aren't the same week.",
   },
   {
-    setup: "A green light at the scale is a religious experience.",
-    punchline: "It's the only review in trucking that doesn't come with a lecture.",
+    setup: "Weigh station open.",
+    punchline: "Suddenly I remember every paper I own, my childhood, and whether the mudflap is going through something.",
   },
   {
-    setup: "They call the first two hours free time.",
-    punchline: "Free for who? I brought the truck. They brought a clipboard and a vibe.",
+    setup: "Home time is a magic trick.",
+    punchline: "Dispatch makes it disappear, then acts surprised you noticed.",
   },
   {
     setup: "The shipper said the freight was ready.",
-    punchline: "Ready is a word. A forklift is evidence.",
+    punchline: "Ready meant Dale was on his way. Dale was not on his way. Dale was a rumor.",
   },
   {
-    setup: "Parking after five is a sport.",
-    punchline: "The prize is a spot next to a reefer that runs all night like it's mad at you.",
+    setup: "Truck stop, 7 p.m. Fifty trucks. Two spots.",
+    punchline: "Both spots were a suggestion someone had already taken.",
   },
   {
-    setup: "The officer asked what I was hauling.",
-    punchline: "Sailboat fuel. She asked for placards. The wind does not take placards.",
+    setup: "They gave me a window from 8 to 10.",
+    punchline: "I used 8. They used the idea of 10, and called me early.",
   },
   {
-    setup: "Dispatch has two clocks.",
-    punchline: "The one in the truck, and the imaginary one they use for my arrival.",
+    setup: "Just one more load.",
+    punchline: "In trucking, that sentence has ended more Fridays than traffic.",
   },
   {
-    setup: "A four-wheeler thinks a blinker is a courtesy.",
-    punchline: "On a truck it's a legal document. I filed it. You did not read it.",
+    setup: "A blinker on a truck is not a question.",
+    punchline: "It's a calendar invite. You missed it. I'm still coming.",
   },
   {
-    setup: "Driver friendly means there is a chair.",
-    punchline: "The chair has tenure. The vending machine has opinions. You have two hours.",
+    setup: "Backing into a dock is the Olympics.",
+    punchline: "The judges are strangers on their phones, and they all have notes.",
   },
   {
-    setup: "A car cut me off, then hit the brakes.",
-    punchline: "Buddy, I am 80,000 pounds of already committed. My stopping distance is a novella.",
+    setup: "A Prius cut me off, then slowed down to read a sign.",
+    punchline: "Sir, I need a football field to stop. You needed a hobby.",
   },
   {
     setup: "The lumper fee is a cover charge.",
-    punchline: "I already bought the ticket. The show is a man on a forklift and my own money leaving.",
+    punchline: "I drove the trailer 600 miles. Then I paid a man to do the part the building was built for.",
   },
   {
     setup: "I backed in on the first try.",
-    punchline: "No witnesses. In trucking that's not a skill. That's a cold case.",
+    punchline: "Nobody saw it. In this job, that's not talent. That's a missing witness.",
   },
   {
-    setup: "Detention is in the contract.",
-    punchline: "So is Bigfoot, if you read the comments. Only one of them has ever paid me.",
+    setup: "Detention is in the rate confirmation.",
+    punchline: "So is getting paid for it. I've seen one of those happen.",
   },
   {
-    setup: "Hundred-mile coffee is not a drink.",
-    punchline: "It's a threat the diner makes, and a promise the thermos keeps.",
+    setup: "Hundred-mile coffee is not a beverage.",
+    punchline: "You survive it, and then you can hear colors.",
   },
   {
     setup: "This should be easy, dispatch said.",
-    punchline: "Those four words have ended more afternoons than weather.",
+    punchline: "I have never heard those words and then had an easy day. Not once.",
   },
   {
-    setup: "The appointment was a window.",
-    punchline: "I arrived in the window. The dock arrived in a different genre.",
+    setup: "The GPS said arrive at 2.",
+    punchline: "The dock said arrive at never. We settled. I sat in the lot and became a landmark.",
   },
   {
-    setup: "Team drivers share a bunk the size of a rumor.",
-    punchline: "One sleeps. One pretends the other snores in a foreign language.",
+    setup: "Team driving is a marriage with an engine brake.",
+    punchline: "One of you sleeps. The other pretends that's sleeping.",
   },
   {
-    setup: "A wide load does not negotiate with a bridge.",
-    punchline: "The bridge has been there longer, and it does not check its email.",
+    setup: "A wide load does not discuss things with a bridge.",
+    punchline: "The bridge has seniority, and it does not check its messages.",
   },
   {
-    setup: "Empty miles are not empty.",
-    punchline: "They're full of diesel, and the fuel gauge is a better accountant than I am.",
+    setup: "Empty miles aren't empty.",
+    punchline: "I'm hauling air. Air does not pay for the diesel it took to haul the air.",
   },
   {
-    setup: "The ELD does not nag.",
-    punchline: "It takes notes, shares them with the company, and never blinks. That's a witness.",
+    setup: "The logbook doesn't ask how I feel.",
+    punchline: "It asks how long I've felt it, then it emails my boss.",
   },
   {
-    setup: "The bill said 12 pallets.",
-    punchline: "The dock produced 12 pallets and a surprise. The surprise did not have a weight.",
+    setup: "The bill said 42,000 pounds.",
+    punchline: "The scale said 46,000. Somebody packed optimism and didn't mark it.",
   },
   {
     setup: "Hotshot means now.",
-    punchline: "Now is a small van with a big opinion and no interest in your appointment.",
+    punchline: "Now showed up in a van, asked for the dock, and was already disappointed.",
   },
   {
-    setup: "PrePass green is the good ending.",
-    punchline: "Red is the universe saying, let's review your life choices on the shoulder.",
+    setup: "Green light at the scale.",
+    punchline: "I have never loved a machine more. Not the truck. The light.",
   },
   {
-    setup: "Who's in charge at the dock?",
-    punchline: "A clipboard. It cannot drive, it cannot load, and somehow it outranks both of us.",
+    setup: "Who runs the dock?",
+    punchline: "A clipboard. Can't drive. Can't load. Still your supervisor.",
   },
   {
-    setup: "Cheap diesel was at the last exit.",
-    punchline: "So was a parking spot. I missed both and called it a strategy.",
+    setup: "Cheap fuel was one exit back.",
+    punchline: "So was a parking spot. I missed both and called the next hundred miles a plan.",
   },
   {
-    setup: "Nose-in at the dock is a choice.",
-    punchline: "Unless the forklift learned to drive through an engine, detention starts never.",
+    setup: "He nosed into the dock and called for detention.",
+    punchline: "The forklift cannot drive through an engine. That's not waiting. That's a hobby.",
   },
   {
     setup: "The rate was all-in.",
-    punchline: "All-in did not include the waiting, the lumper, or the part where I age.",
+    punchline: "All-in did not include the waiting, the lumper, or me getting older in their lot.",
   },
   {
-    setup: "Shiny side up is the whole prayer.",
-    punchline: "Four words. Keep the truck upright. Everything else is commentary.",
+    setup: "Driver-friendly restroom.",
+    punchline: "Friendly like a vending machine that's out of everything except regret.",
   },
   {
     setup: "The lane was a straight shot.",
-    punchline: "Construction brought cones, a flagger, and a new definition of straight.",
+    punchline: "Then a flagger, six cones, and a man waving like the road was a suggestion.",
   },
   {
-    setup: "They said the receiver was great.",
-    punchline: "Great is what brokers say. The receiver had not received the memo, or me.",
+    setup: "The broker said the receiver was easy.",
+    punchline: "Easy meant a guard shack and a guy who had never heard of me, or the load.",
   },
   {
-    setup: "Check-in wanted the pickup number.",
-    punchline: "I had it. They wanted it on a different form, in a different decade.",
+    setup: "Check-in asked if I was the driver.",
+    punchline: "I hope so. I brought the truck, and it is not parallel parked.",
   },
 ];
 
