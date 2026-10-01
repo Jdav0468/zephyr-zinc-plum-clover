@@ -1,130 +1,130 @@
 export type DailyJoke = { setup: string; punchline: string };
 
-// Misdirection. The last line is the turn, not a caption. Safe to forward.
+// Freight puns. Safe to forward.
 export const jokeBank: DailyJoke[] = [
   {
-    setup: "I told my boss I needed a day off.",
-    punchline: "He said, me too. We went back to work. Team building.",
+    setup: "Why did the dispatcher cross the road?",
+    punchline: "To get the driver to the other side by Monday.",
   },
   {
-    setup: "My review said I take too much initiative.",
-    punchline: "So I decided not to read the rest.",
+    setup: "The dock said it would be a short wait.",
+    punchline: "It was a long weight.",
   },
   {
-    setup: "They said dress for the job you want.",
-    punchline: "I came in wearing a bathrobe. They said not that job.",
+    setup: "Why was the flatbed so calm?",
+    punchline: "It had a level head.",
   },
   {
-    setup: "I asked what my title meant.",
-    punchline: "They said it means you answer the phone. The phone is the title.",
+    setup: "What did the reefer say to the produce?",
+    punchline: "You need to chill.",
   },
   {
-    setup: "Boss said we're a family.",
-    punchline: "I asked about the inheritance. He said wrong family.",
+    setup: "Why did the shipper get in trouble?",
+    punchline: "He kept pallet-ing excuses.",
   },
   {
-    setup: "I called in sick.",
-    punchline: "He said I didn't sound sick. I said I don't sound at work either. That's the system.",
+    setup: "The load was late.",
+    punchline: "It was past-due east.",
   },
   {
-    setup: "They told me to do more with less.",
-    punchline: "I did less. They said I had misunderstood the assignment. I had not.",
+    setup: "Why don't trucks ever get lost in the paperwork?",
+    punchline: "They stay on the bill of lading.",
   },
   {
-    setup: "The meeting invite said optional.",
-    punchline: "I tested it. It was not optional. Science.",
+    setup: "What do you call a nervous scale?",
+    punchline: "A weigh station.",
   },
   {
-    setup: "I got employee of the month.",
-    punchline: "The prize was a mug that says employee of the month. I already had the job.",
+    setup: "Why did the broker bring a ladder?",
+    punchline: "The rate was over everyone's head.",
   },
   {
-    setup: "I told my boss three companies were after me.",
-    punchline: "He asked which ones. Gas, electric, and cable.",
+    setup: "Why did the driver bring a pencil to the scale?",
+    punchline: "He heard it was a weigh station.",
   },
   {
-    setup: "They asked for my two weeks.",
-    punchline: "I said I can do it in one if nobody calls a meeting.",
+    setup: "The trailer told a secret.",
+    punchline: "It was off the record, but on the BOL.",
   },
   {
-    setup: "My coworker said this will only take a second.",
-    punchline: "He was right. The second took forty minutes. The second was honest. He was not.",
+    setup: "Why was the hotshot always in a hurry?",
+    punchline: "It had van-ishing time.",
   },
   {
-    setup: "I suggested we cancel the meeting.",
-    punchline: "They scheduled a meeting to discuss it.",
+    setup: "What do you call a truck that tells jokes?",
+    punchline: "A haul lot of trouble.",
   },
   {
-    setup: "Boss said think outside the box.",
-    punchline: "I did. He said the box was load-bearing. Get back in.",
+    setup: "The coffee at the truck stop was strong.",
+    punchline: "It had been Joe for miles.",
   },
   {
-    setup: "I asked for a raise.",
-    punchline: "They gave me a new title. The title cannot buy lunch.",
+    setup: "Why did the forklift get promoted?",
+    punchline: "It knew how to raise the issue.",
   },
   {
-    setup: "Someone said sorry for the late email.",
-    punchline: "If they were sorry, there would be no email. There was an email.",
+    setup: "The appointment was flexible.",
+    punchline: "Mostly in the sense that it bent.",
   },
   {
-    setup: "I have a work phone and a personal phone.",
-    punchline: "Both rang at dinner. Collaboration.",
+    setup: "Why did the tanker ace the test?",
+    punchline: "It was a fuel-proof plan.",
   },
   {
-    setup: "They said the door is always open.",
-    punchline: "I walked in. They were on a call. The door was a metaphor. I was not.",
+    setup: "What did the wide load say to the bridge?",
+    punchline: "I'm a little over, don't make a span of it.",
   },
   {
-    setup: "I finished early.",
-    punchline: "This was treated as a scheduling error.",
+    setup: "Empty miles walked into a bar.",
+    punchline: "The bartender said, we don't serve your type. No payload.",
   },
   {
-    setup: "The training was mandatory.",
-    punchline: "The quiz asked if I had enjoyed the training. I did not enjoy the question.",
+    setup: "Why was the ELD a bad roommate?",
+    punchline: "It kept logging everything.",
   },
   {
-    setup: "I replied all by accident.",
-    punchline: "Everyone replied all to say don't reply all. We are nothing if not consistent.",
+    setup: "The seal didn't match.",
+    punchline: "Someone had broken the bond.",
   },
   {
-    setup: "Boss asked if I had a minute.",
-    punchline: "I said yes. That was the mistake. The minute brought slides.",
+    setup: "Why did the yard goat get the job?",
+    punchline: "It was great at shifting responsibility.",
   },
   {
-    setup: "They moved me to a window seat.",
-    punchline: "The window faces the parking lot. I can see my car. It looks free.",
+    setup: "PrePass turned green.",
+    punchline: "That was a weigh to go.",
   },
   {
-    setup: "I was told to take ownership.",
-    punchline: "I asked if ownership came with keys. It came with a spreadsheet.",
+    setup: "Who runs the dock?",
+    punchline: "A clipboard. It's board-certified.",
   },
   {
-    setup: "The printer works if you stand there.",
-    punchline: "I am not in IT. I am a presence. The presence is billable, apparently not.",
+    setup: "Why did the driver sit so long?",
+    punchline: "He was waiting for his ship to come in. It was a truck.",
   },
   {
-    setup: "We had a brainstorm.",
-    punchline: "It rained ideas. We left with the same umbrella.",
+    setup: "He parked nose-in.",
+    punchline: "The forklift called it a dead end.",
   },
   {
-    setup: "I said I was at capacity.",
-    punchline: "They added a small thing. The small thing brought friends.",
+    setup: "The rate was all-in.",
+    punchline: "The lumper was an added fee-ture.",
   },
   {
-    setup: "The survey was anonymous.",
-    punchline: "It asked for my department, my role, and my birthday. Very anonymous. Very festive.",
+    setup: "Why was the restroom driver friendly?",
+    punchline: "It had a stall tactic.",
   },
   {
-    setup: "I logged off on time.",
-    punchline: "Someone Slacked great, you're still online. I was not. My ghost has a better work ethic.",
+    setup: "The lane was a straight shot.",
+    punchline: "Construction made it a detour de force.",
   },
   {
-    setup: "They said culture eats strategy.",
-    punchline: "Culture ate the strategy. We still have a meeting about the strategy.",
+    setup: "Why did the freight go to therapy?",
+    punchline: "It had too much baggage, and none of it was strapped.",
   },
   {
-    setup: "I asked what success looks like.",
-    punchline: "They said you'll know. I do not know. This is also called success, pending.",
+    setup: "Check-in asked for my number.",
+    punchline: "I gave them the pickup. They wanted a callback.",
   },
 ];
 
