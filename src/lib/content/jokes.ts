@@ -91,16 +91,16 @@ export const jokeBank: DailyJoke[] = [
     punchline: "On time is a promise. Early is a courtesy. Late needs a phone call.",
   },
   {
-    setup: "Abraham Lincoln",
-    punchline: "Things may come to those who wait, but only the things left by those who hustle.",
+    setup: "Will Rogers",
+    punchline: "Even if you're on the right track, you'll get run over if you just sit there.",
   },
   {
     setup: "A Russian proverb",
     punchline: "Trust, but verify.",
   },
   {
-    setup: "Henry Ford",
-    punchline: "Coming together is a beginning. Keeping together is progress. Working together is success.",
+    setup: "The Ro-Mac Brief",
+    punchline: "A late call beats a surprise at the dock.",
   },
   {
     setup: "The Ro-Mac Brief",
