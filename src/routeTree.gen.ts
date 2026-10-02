@@ -16,6 +16,7 @@ import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as SavedRouteImport } from './routes/saved'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as SubscribeRouteImport } from './routes/subscribe'
+import { Route as SpotRouteImport } from './routes/spot'
 import { Route as ApiDailyRouteImport } from './routes/api/daily'
 import { Route as BriefSlugRouteImport } from './routes/brief/$slug'
 import { Route as DeskDeskRouteImport } from './routes/desk/$desk'
@@ -50,6 +51,11 @@ const SearchRoute = SearchRouteImport.update({
   path: '/search',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SpotRoute = SpotRouteImport.update({
+  id: '/spot',
+  path: '/spot',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SubscribeRoute = SubscribeRouteImport.update({
   id: '/subscribe',
   path: '/subscribe',
@@ -78,6 +84,7 @@ export interface FileRoutesByFullPath {
   '/glossary': typeof GlossaryRoute
   '/saved': typeof SavedRoute
   '/search': typeof SearchRoute
+  '/spot': typeof SpotRoute
   '/subscribe': typeof SubscribeRoute
   '/api/daily': typeof ApiDailyRoute
   '/brief/$slug': typeof BriefSlugRoute
@@ -90,6 +97,7 @@ export interface FileRoutesByTo {
   '/glossary': typeof GlossaryRoute
   '/saved': typeof SavedRoute
   '/search': typeof SearchRoute
+  '/spot': typeof SpotRoute
   '/subscribe': typeof SubscribeRoute
   '/api/daily': typeof ApiDailyRoute
   '/brief/$slug': typeof BriefSlugRoute
@@ -103,6 +111,7 @@ export interface FileRoutesById {
   '/glossary': typeof GlossaryRoute
   '/saved': typeof SavedRoute
   '/search': typeof SearchRoute
+  '/spot': typeof SpotRoute
   '/subscribe': typeof SubscribeRoute
   '/api/daily': typeof ApiDailyRoute
   '/brief/$slug': typeof BriefSlugRoute
@@ -117,6 +126,7 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/saved'
     | '/search'
+    | '/spot'
     | '/subscribe'
     | '/api/daily'
     | '/brief/$slug'
@@ -129,6 +139,7 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/saved'
     | '/search'
+    | '/spot'
     | '/subscribe'
     | '/api/daily'
     | '/brief/$slug'
@@ -141,6 +152,7 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/saved'
     | '/search'
+    | '/spot'
     | '/subscribe'
     | '/api/daily'
     | '/brief/$slug'
@@ -154,6 +166,7 @@ export interface RootRouteChildren {
   GlossaryRoute: typeof GlossaryRoute
   SavedRoute: typeof SavedRoute
   SearchRoute: typeof SearchRoute
+  SpotRoute: typeof SpotRoute
   SubscribeRoute: typeof SubscribeRoute
   ApiDailyRoute: typeof ApiDailyRoute
   BriefSlugRoute: typeof BriefSlugRoute
@@ -204,6 +217,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SearchRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/spot': {
+      id: '/spot'
+      path: '/spot'
+      fullPath: '/spot'
+      preLoaderRoute: typeof SpotRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/subscribe': {
       id: '/subscribe'
       path: '/subscribe'
@@ -242,6 +262,7 @@ const rootRouteChildren: RootRouteChildren = {
   GlossaryRoute: GlossaryRoute,
   SavedRoute: SavedRoute,
   SearchRoute: SearchRoute,
+  SpotRoute: SpotRoute,
   SubscribeRoute: SubscribeRoute,
   ApiDailyRoute: ApiDailyRoute,
   BriefSlugRoute: BriefSlugRoute,

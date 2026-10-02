@@ -59,6 +59,20 @@ function Home() {
         <DieselSnapshot tick={diesel} />
       </div>
 
+      <section className="mt-12 border border-line-strong bg-wash px-5 py-6 sm:px-8">
+        <p className="kicker">October</p>
+        <h2 className="mt-2 font-serif text-3xl leading-tight font-semibold">Don't look away.</h2>
+        <p className="mt-3 max-w-2xl text-ink-soft">
+          The nights get longer. Something is riding with the freight. A Halloween spot from the desk — the scare is a load nobody is watching.
+        </p>
+        <Link
+          to="/spot"
+          className="mt-5 inline-flex h-11 items-center bg-navy px-4 text-sm font-semibold text-navy-ink"
+        >
+          Watch the spot
+        </Link>
+      </section>
+
       <section className="mt-12 border-t border-ink pt-8">
         <h2 className="font-serif text-2xl font-semibold">Also on the desk</h2>
         <ul className="mt-4 divide-y divide-line">
