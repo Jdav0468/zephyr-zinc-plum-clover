@@ -11,7 +11,6 @@ export type CornerJoke = { setup: string; punchline: string };
 
 const links = [
   { to: "/", label: "Today" },
-  { to: "/spot", label: "Spot" },
   { to: "/archive", label: "Archive" },
   { to: "/diesel", label: "Diesel" },
   { to: "/glossary", label: "Glossary" },
@@ -218,7 +217,6 @@ export function Shell({ children, joke }: { children: ReactNode; joke: CornerJok
           <div>
             <p className="kicker">Read next</p>
             <ul className="mt-3 space-y-2 text-sm">
-              <li><Link to="/spot" className="underline decoration-line underline-offset-4">October spot</Link></li>
               <li><Link to="/diesel" className="underline decoration-line underline-offset-4">Diesel desk</Link></li>
               <li><Link to="/glossary" className="underline decoration-line underline-offset-4">Glossary</Link></li>
               <li><Link to="/subscribe" className="underline decoration-line underline-offset-4">Sign up for the brief</Link></li>
