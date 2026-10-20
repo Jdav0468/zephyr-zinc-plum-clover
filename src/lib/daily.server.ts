@@ -302,8 +302,8 @@ Assigned desk: ${desk}. Use that desk if you can verify a story. If you cannot, 
 Do not repeat these headlines: ${titles.join(" | ") || "(none)"}.
 
 Cover only what you can verify with web search: trucking news, laws, FMCSA or DOT action, diesel prices, cargo theft, illegal or non-domiciled CDLs, English-proficiency removals, or fraudulent carriers.
-Check https://cdllife.com/news/ every time. Prefer a CDLLife story from the last 7 days when it is on those subjects, and cite the CDLLife article. Also cite the government, court, or company page behind it when you can find one. CDLLife is a trade outlet: if it is reporting a lawsuit or an accusation, say it is an allegation and do not treat it as proved.
-The last verified EIA weekly U.S. on-highway diesel in this archive is $${latestDiesel.price.toFixed(3)} for the week of ${latestDiesel.week}. Set diesel to null unless you find a NEWER official EIA weekly U.S. number and an eia.gov URL. Never use a CDLLife, AAA, state, or truck-stop price for that field.
+Check https://cdllife.com/news/ and https://www.freightwaves.com/ every time. Prefer a story from the last 7 days on those subjects from either outlet, and cite that article. Also cite the government, court, or company page behind it when you can find one. CDLLife and FreightWaves are trade outlets: if one is reporting a lawsuit or an accusation, say it is an allegation and do not treat it as proved.
+The last verified EIA weekly U.S. on-highway diesel in this archive is $${latestDiesel.price.toFixed(3)} for the week of ${latestDiesel.week}. Set diesel to null unless you find a NEWER official EIA weekly U.S. number and an eia.gov URL. Never use a CDLLife, FreightWaves, AAA, state, or truck-stop price for that field.
 
 Write plain English. Open jargon in the same sentence you use it. Include one note block titled "Why this matters if you don't work in trucking".
 Every figure must appear in a source you cite. Do not invent numbers, quotes, or company accusations. If a case is unfinished, say so.
