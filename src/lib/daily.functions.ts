@@ -32,8 +32,16 @@ export const fileToday = createServerFn({ method: "POST" }).handler(async (): Pr
   return ensureToday();
 });
 
+function chicagoToday() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Chicago",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
+
 export const loadTodayJoke = createServerFn({ method: "GET" }).handler(async () => {
-  const { getSql } = await import("@/lib/db");
-  const { readLatestJoke } = await import("@/lib/daily.server");
-  return readLatestJoke(await getSql());
+  const { jokeForDate } = await import("@/lib/content/jokes");
+  return jokeForDate(chicagoToday());
 });
